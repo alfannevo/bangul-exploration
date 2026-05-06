@@ -90,14 +90,18 @@ export default function KostLandingPage() {
       </header>
 
       {/* Hero */}
-      <section style={{ background: "linear-gradient(135deg, #008742 0%, #1baa56 100%)", padding: "72px 24px" }}>
-        <div style={{ maxWidth: 1120, margin: "0 auto", display: "flex", alignItems: "center", gap: 48 }}>
+      <section style={{ background: "linear-gradient(135deg, #006b34 0%, #008742 45%, #1baa56 100%)", padding: "48px 24px 56px", overflow: "hidden", position: "relative" }}>
+        {/* Decorative background circles */}
+        <div style={{ position: "absolute", top: -80, right: "28%", width: 340, height: 340, borderRadius: "50%", background: "rgba(255,255,255,0.04)", pointerEvents: "none" }} />
+        <div style={{ position: "absolute", bottom: -80, right: "10%", width: 240, height: 240, borderRadius: "50%", background: "rgba(255,255,255,0.06)", pointerEvents: "none" }} />
+
+        <div style={{ maxWidth: 1120, margin: "0 auto", display: "flex", alignItems: "center", gap: 48, position: "relative" }}>
           <div style={{ flex: 1, minWidth: 0 }}>
             <h1 className="bg-c-text bg-c-text--heading-1" style={{ color: "#ffffff", marginBottom: 12 }}>
               Cari Kost Impianmu
             </h1>
-            <p className="bg-c-text bg-c-text--body-landing" style={{ color: "#b8e4ca", marginBottom: 40 }}>
-              Lebih dari 1 juta pilihan kost di seluruh Indonesia. Murah, nyaman, dan terverifikasi.
+            <p className="bg-c-text bg-c-text--body-landing" style={{ color: "#b8e4ca", marginBottom: 32 }}>
+              Lebih dari 1 juta pilihan kost di seluruh Indonesia.<br />Murah, nyaman, dan terverifikasi.
             </p>
 
             {/* Search bar */}
@@ -135,12 +139,12 @@ export default function KostLandingPage() {
           </div>
 
           {/* Hero illustration */}
-          <div style={{ flexShrink: 0, display: "none" }} className="hero-illustration">
+          <div style={{ flexShrink: 0, width: 360 }} className="hero-illustration">
             <img
               className="bg-c-illustration"
               src={`${CDN_IL}/mamikos-benefit.svg`}
               alt="Cari kost mudah dengan Mamikos"
-              style={{ width: 320 }}
+              style={{ width: 360, display: "block" }}
             />
           </div>
         </div>
