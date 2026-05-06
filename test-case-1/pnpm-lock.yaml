@@ -12,7 +12,7 @@ importers:
         specifier: ^1.4.1
         version: 1.4.1(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       bangul-vue:
-        specifier: git+https://ahmad.alfan:glpat-vJm2L2PQynZ9rNvx4y1d@langit.kerupux.com:3009/mamikos-fe/mamikos-bangul.git#8d21dd420e19122a4a6150494dd44661c133449c
+        specifier: git+https://ahmad.alfan:glpat-vJm2L2PQynZ9rNvx4y1d@langit.kerupux.com:3009/mamikos-fe/mamikos-bangul.git#temp/CFE-1240-try-design-md
         version: git+https://ahmad.alfan:glpat-vJm2L2PQynZ9rNvx4y1d@langit.kerupux.com:3009/mamikos-fe/mamikos-bangul.git#8d21dd420e19122a4a6150494dd44661c133449c(vue@2.7.16)
       class-variance-authority:
         specifier: ^0.7.1
