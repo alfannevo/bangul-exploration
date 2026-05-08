@@ -1,0 +1,29 @@
+{
+  "name": "test-case-2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "bangul-vue": "git+https://ahmad.alfan:glpat-vJm2L2PQynZ9rNvx4y1d@langit.kerupux.com:3009/mamikos-fe/mamikos-bangul.git#temp/CFE-1240-try-veaury",
+    "next": "16.2.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "veaury": "^2.4.3",
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
